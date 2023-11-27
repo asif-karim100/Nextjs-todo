@@ -1,6 +1,11 @@
 import React, { useState } from "react";
 import classes from "./AddTodo.module.css";
 
+
+
+//////
+// "mongodb+srv://asifkarim:karim100@cluster0.rh2ajng.mongodb.net/todos?retryWrites=true&w=majority
+//
 const AddTodo = () => {
   const [todo, setTodo] = useState("");
 
@@ -10,6 +15,7 @@ const AddTodo = () => {
 
     const todoData = {
       todo,
+      isCompleted: false
     };
 
 

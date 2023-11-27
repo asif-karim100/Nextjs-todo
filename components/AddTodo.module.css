@@ -3,9 +3,9 @@
     flex-direction: column;
     width: 25%;
     margin: auto;
-    box-shadow: 2px 2px 2px 2px rgb(156, 147, 147);
+    box-shadow: 2px 2px 2px 2px rgb(236, 53, 53);
     padding: 20px;
-    background-color: white;
+    background-color: rgb(233, 104, 104);
 }
 
 .form input {
@@ -14,8 +14,8 @@ border-radius: 10px;
 }
 
 .form button {
-    color: white;
-    background-color: #477e32;
+    color: rgb(247, 30, 30);
+    background-color: #2f22e9;
     
     border: none;
     width: 50%;

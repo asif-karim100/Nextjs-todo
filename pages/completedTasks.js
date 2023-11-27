@@ -17,7 +17,7 @@ const completedTasks = (props) => {
 
 export const getStaticProps = async () => {
   const client = await MongoClient.connect(
-  "mongodb+srv://asifkarim:karim100@cluster0.rh2ajng.mongodb.net/todos?retryWrites=true&w=majority"
+    "mongodb+srv://asifkarim:karim100@cluster0.rh2ajng.mongodb.net/todos?retryWrites=true&w=majority"
   );
 
   const db = client.db();

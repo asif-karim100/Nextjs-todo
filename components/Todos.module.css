@@ -5,7 +5,7 @@
     width: 50%;
     margin: 20px auto;
     padding: 0 20px;
-    background-color: #fff;
+    background-color: #f36d6d;
     box-shadow: 2px 2px 2px 2px #534a4a;
 }
 
@@ -19,7 +19,7 @@
 }
 
 .done {
-    background-color: #33681e;
+    background-color: #221e68;
     margin: 0 5px;
     color: white;
     border: none;
@@ -31,10 +31,10 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    border: 1px solid  #33681e;
+    border: 1px solid  #381e68;
     padding: 5px;
     border-radius: 8px;
-    background-color: #4f833a;
+    background-color: #403a83;
     color: white;
 }
 
